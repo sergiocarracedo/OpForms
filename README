@@ -1,0 +1,70 @@
+#############
+Que es OpForm
+#############
+
+OpForm es una libreria escrita en PHP 5 que simplifica la creación y gestion de formularios web se basa en una arquitectura de clases heredadas para los elementos loque simplifica y facilita la creación de nuevos tipos de elementos (Campos). Permite añadir validadores a los elementos, ya sea en la propia contruccción del mismo o por el usuario.
+
+Una de las labores criticas a las que se enfrenta todo programador web es la petición de datos a los usuarios en el lado cliente y como segunda fase de este proceso la validación y securización de estos datos.
+
+En 2001 nació neoforms una clase monolítica escrita para php 4 que permitía crear y validar formularios de forma sencilla. Como primera aproximación resulto ser muy flexible  en algunos aspectos y útil, pero era complicada de mantener y su crecimiento fue desordenado.
+
+En base a la experiencia de uso acumulada con neoforms hemos creado forms,  un conjunto de clases que resuelven el mismo problema (la gestión y validación de formularios) pero con un  enfoque más modular y estructurado. Usando la posibilidades los objetos de PHP5 (herencia, abstracción, etc).
+
+* Inspiración
+Esta nueva versión forms esta inspirada en algunos de los conceptos de PFBC (http://code.google.com/p/php-form-builder-class/) pero adaptados a nuestras necesidades y experiencia.
+
+*  Theming
+Para nosotros el diseño juega un papel fundamental, por ello desde la base hemos planteado la posiblidad de disponer de distintos temas 
+
+
+**************
+Sobre el autor
+**************
+
+Sergio Carracedo Martinez / Opsou 
+
+Twitter:
+		@sergiocarracedo
+		@opsou
+		
+Web: 	http://www.sergiocarracedo.es 
+		http://www.opsou.com/blog/author/admin/
+		http://www.opsou.com
+		
+		
+******
+Bugfix
+******
+
+Seguro que la lista es larga pero esta en la primera versión
+		
+
+***************************
+Información de esta versión
+***************************
+
+Esta es la primera actualización
+
+
+**********************************
+Changelog y nuevas caracteristicas
+**********************************
+
+2011-12-15 Beta 1.0
+
+**********
+Requisitos
+**********
+
+PHP 5
+Smarty (http://www.smarty.net/)
+Options Class (Incluida en el repositiorio)
+
+
+********
+Licencia
+********
+
+GNU GPL v3
+http://www.gnu.org/licenses/gpl.html
+

@@ -1,0 +1,42 @@
+.form {
+	
+}
+
+.form fieldset {
+	padding: 20px;
+}
+
+.form fieldset label {
+	display: block;
+	margin-bottom: 4px;
+}
+
+.form fieldset textarea,
+.form fieldset select,
+.form fieldset input{
+	width: 100%
+}
+
+
+.form fieldset .element-type-radio input{
+	width: auto;	
+}
+
+.form fieldset .element-type-radio label{
+	display: inline;
+}
+
+.form .element {
+	margin-bottom: 20px;
+}
+
+.form .element .description{
+	font-size: 0.8em;
+	color: #aaa;
+	font-style: italic;
+}
+
+.form .element .errorString {
+	color: #900;
+	font-size: 12px;
+}

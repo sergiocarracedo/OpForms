@@ -1,0 +1,1 @@
+<input name="{$element.name}" value="{$element.value}" class="{$element.attributes.class}" {$element.attributes.render} />
